@@ -40,7 +40,7 @@ internal class Program
 {
     public static async Task Main()
     {
-        var botClient = new TelegramBotClient("6562320831:AAEfREXZ-yoo96YfxzxvSKbqkMYKPKTeV7I");
+        var botClient = new TelegramBotClient("");
 
         using var cts = new CancellationTokenSource();
 
